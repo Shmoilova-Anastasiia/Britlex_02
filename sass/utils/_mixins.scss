@@ -1,0 +1,44 @@
+@mixin section{
+    @media screen and(min-width:1338px) {
+        padding-top: 180px;
+    }
+}
+
+@mixin container {
+    max-width: 290px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+@media screen and(min-width:575px) {
+    max-width: 540px;    
+}
+@media screen and(min-width:768px) {
+    max-width: 712px;    
+}
+@media screen and(min-width:992px) {
+    max-width: 940px;    
+}
+@media screen and(min-width:1338px) {
+    max-width: 1338px;
+}
+}
+@mixin title {
+    font-weight: 600;
+font-size: 24px;
+line-height: calc(80/24);
+
+color: var(--text-color-dark);
+@media screen and(min-width:575px) {
+    font-size: 30px;
+    line-height: calc(80/30);    
+}
+@media screen and(min-width:992px) {
+    font-size: 36px;
+line-height: calc(80/36);    
+}
+@media screen and(min-width:1338px) {
+    font-size: 48px;
+line-height: calc(72/48);
+}
+}
