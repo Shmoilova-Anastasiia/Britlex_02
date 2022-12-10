@@ -34,17 +34,30 @@ img {
   height: auto;
 }
 
+.header {
+  max-width: 1338px;
+}
+
 .header__container {
   max-width: 1338px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .logo {
   font-weight: 400;
   font-size: 36px;
   line-height: 1.5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: var(--text-color-dark);
 }
 
@@ -74,6 +87,8 @@ img {
 }
 
 .header__button {
+  width: 312px;
+  height: 70px;
   padding: 20px 56px;
   border: 2px solid var(--color-accent);
   border-radius: 10px;
@@ -81,6 +96,70 @@ img {
   font-weight: 400;
   font-size: 20px;
   line-height: 1.5;
+}
+
+.hero__section {
+  padding-top: 75px;
+}
+
+.hero__container {
+  max-width: 290px;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+@media screen and (min-width: 575px) {
+  .hero__container {
+    max-width: 540px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero__container {
+    max-width: 712px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .hero__container {
+    max-width: 940px;
+  }
+}
+@media screen and (min-width: 1338px) {
+  .hero__container {
+    max-width: 1338px;
+  }
+}
+
+.hero__group {
+  max-width: 540px;
+}
+
+.hero__title {
+  margin-bottom: 40px;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 1.25;
+  color: var(--text-color-dark);
+}
+
+.hero__text {
+  margin-bottom: 60px;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.hero__button {
+  width: 426px;
+  padding: 23px 64px;
+  background: var(--color-accent);
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-color-button);
 }
 
 @media screen and (min-width: 1338px) {
@@ -91,8 +170,6 @@ img {
 
 .pricing__container {
   max-width: 290px;
-  padding-right: 15px;
-  padding-left: 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -160,10 +237,12 @@ img {
 }
 
 .pricing__item {
-  max-width: 426px;
+  max-width: 420px;
+  height: 584px;
 }
 
 .pricing__undertitle {
+  margin-top: 31px;
   font-weight: 600;
   font-size: 30px;
   line-height: 1.6;
@@ -181,7 +260,7 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 5px 29px;
+  margin-top: auto;
   gap: 22px;
   -webkit-box-align: center;
       -ms-flex-align: center;

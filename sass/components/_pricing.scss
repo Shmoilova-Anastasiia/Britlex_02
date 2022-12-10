@@ -17,10 +17,12 @@
     flex-wrap: wrap;
 }
 .pricing__item{
-    max-width: 426px;
+    max-width: 420px;
+    height: 584px;
 
 }
 .pricing__undertitle{
+    margin-top: 31px;
     font-weight: 600;
 font-size: 30px;
 line-height: calc(48/30);
@@ -34,7 +36,7 @@ line-height: calc(30/20);
 }
 .pricing__group{
     display: flex;
-    padding: 5px 29px;
+    margin-top: auto;
     gap: 22px;
     align-items: center;
   

@@ -13,7 +13,7 @@
 </head>
 <body>
  <header class="header">
-    <div class="header__container container">
+    <div class="header__container">
         <a href="" class="header__logo logo link">Brit<span class="logo-part">lex</span></a>
         <ul class="header__list list">
             <li class="header__item"><a class="header__link link" href="">Home</a></li>
@@ -26,13 +26,23 @@
     </div>
  </header>   
  <main>
-    <section class="hero__section section">
-        <div class="hero__container container">
+    <section class="hero__section">
+        <div class="hero__container">
+            <div class="hero__group">
             <h1 class="hero__title">Learn Any Foreign Language</h1>
             <p class="hero__text">With our teachers who write a program for each student, 
                 you will be able to make your first sketch after the first lesson.</p>
             <button class="hero__button button">Get started</button>
-            <img src="" alt="">
+            </div>
+            <img  
+                        srcset="
+                        ./image/hero/imglg@1x.jpg 1x,
+                        ./image/hero/imglg@2x.jpg 2x" 
+                        src="./image/hero/imglg@1x.jpg"  
+                        alt="photo" 
+                        loading="lazy"
+                        width="654" 
+                        height="510">
         </div>
     </section>
     <section class="skills__section section">
@@ -112,7 +122,7 @@
                         src="./image/pricing/onlinelg@1x.jpg"  
                         alt="photo" 
                         loading="lazy"
-                        width="426" 
+                        width="420" 
                         height="320">
                     <h3 class="pricing__undertitle">Self-study online course</h3>
                     <p class="pricing__text">Start learning English online in live classes
@@ -130,7 +140,7 @@
                         src="./image/pricing/lessonlg@1x.jpg"  
                         alt="photo" 
                         loading="lazy"
-                        width="426" 
+                        width="420" 
                         height="320">
                     <h3 class="pricing__undertitle">Live online classes</h3>
                     <p class="pricing__text">Interactive group classes with expert
@@ -148,7 +158,7 @@
                         src="./image/pricing/webinarlg@1x.jpg"  
                         alt="photo" 
                         loading="lazy"
-                        width="426" 
+                        width="420" 
                         height="320">
                     <h3 class="pricing__undertitle">Personal Tuition</h3>
                     <p class="pricing__text">Online one-to-one English tutoring – enjoy
