@@ -1,0 +1,22 @@
+.pricing__section{
+    @include section;
+}
+.pricing__container{
+    @include container;
+}
+.pricing__title{
+    @include title;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.pricing__list{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.pricing__item{
+    max-width: 426px;
+
+}
