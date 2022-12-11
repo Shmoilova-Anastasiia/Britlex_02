@@ -1,0 +1,39 @@
+.about__section{
+    @include section;
+}
+.about__container{
+    @include container;
+    display: flex;
+    gap: 146px;
+}
+
+.about__title{
+    @include title;
+    margin-bottom: 60px;
+}
+.about__text{
+    margin-bottom: 30px;
+    max-width: 652px;
+    font-size: 20px;
+line-height: calc(36/20);
+}
+.about__list{
+    display: flex;
+    max-width: 555px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 131px;
+    text-align: center;
+   
+}
+.about__undertitle{
+    margin-bottom: 6px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: calc(72/48);
+    color: #2A3246;
+}
+.about__undertext{
+    font-size: 20px;
+line-height: calc(30/20);
+}
