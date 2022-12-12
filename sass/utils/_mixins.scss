@@ -1,6 +1,13 @@
 @mixin section{
-    @media screen and(min-width:1338px) {
+    @media screen and (min-width:992px) {
+        padding-left: 31px;
+        padding-right: 31px;
+        padding-top: 70px;
+    }
+    @media screen and (min-width:1338px) {
         padding-top: 180px;
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
@@ -17,7 +24,7 @@
     max-width: 712px;    
 }
 @media screen and(min-width:992px) {
-    max-width: 940px;    
+    max-width: 930px;    
 }
 @media screen and(min-width:1338px) {
     max-width: 1338px;

@@ -77,15 +77,12 @@ max-width: 347px;
     max-width: 324px;
 }
 .skills__button{
-    display: inline-block;
-    cursor: pointer;
     width: 230px;
     padding: 16px 64px;
 
     background: var(--color-accent);
-border-radius: 10px;
 font-weight: 500;
 font-size: 18px;
 line-height: calc(27/18);
-color: var(--text-color-button);
+white-space: nowrap;
 }
